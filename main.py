@@ -118,12 +118,7 @@ class VentanaPrincipal(QDialog):
         global lista_global
         lista_global = temp
         print(lista_global)
-
-    def buildExamplePopup(self, item):
-        name = item.text()
-        self.exPopup = examplePopup(name)
-        self.exPopup.setGeometry(100, 200, 100, 100)
-        self.exPopup.show()
+        
 
     def displayTime(self):
         currentTime = QTime.currentTime()
@@ -133,17 +128,7 @@ class VentanaPrincipal(QDialog):
         self.reloj.setText(tiempo)
         self.fecha.setText(fecha)
 
-class examplePopup(QWidget):
-    def __init__(self, name):
-        super().__init__()
-
-        self.name = name
-
-        self.initUI()
-
-    def initUI(self):
-        lblName = QLabel(self.name, self)
-
+        
 app = QApplication(sys.argv)
 main = VentanaPrincipal()
 main.show()
