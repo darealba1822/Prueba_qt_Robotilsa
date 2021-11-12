@@ -1,6 +1,6 @@
 # Prueba_qt_Robotilsa
 #
-Para ejecucion del programa, se debera intalar los siguiente comandos:
+Para ejecucion del programa, se debera ejecutar los siguiente comandos detallado a continuacion:
 
 
 1) Instalar python 
@@ -20,4 +20,4 @@ Para ejecucion del programa, se debera intalar los siguiente comandos:
    Windows: pip install requests
    
 #
-Ahora solo toca compilar el archivo principal demonimado "main.py"
+Ahora solo toca compilar el archivo principal demoninado "main.py"
